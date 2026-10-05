@@ -1,0 +1,35 @@
+customer-churn-intelligence-platform/
+│
+├── app.py
+├── train_model.py
+├── predict.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── data/
+│   ├── Telco_customer_churn.xlsx
+│   └── README.md
+│
+├── models/
+│   ├── churn_model.pkl
+│   ├── preprocessor.pkl
+│   └── model_metadata.json
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── model_utils.py
+│   ├── explainability.py
+│   └── config.py
+│
+├── notebooks/
+│   └── churn_analysis.ipynb
+│
+├── images/
+│   ├── dashboard.png
+│   ├── shap_summary.png
+│   ├── roc_curve.png
+│   └── app_demo.png
+│
+└── docs/
+    └── project_report.md
